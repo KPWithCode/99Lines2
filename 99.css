@@ -13,12 +13,15 @@ h1  {
     #8a3;
     background-size: 20px 20px;
 }
+
 .friend h3{
     text-align: center;
-    color: aqua;
+    color:#550000;
     text-transform: uppercase;
 }
+
 p{
+    height: 8em;
     text-align: center;
     font-weight: 600;
 }
