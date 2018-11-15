@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function  (event) {
 let friends = ['Asim', 'Marvin', 'Alex', 'Tesfa', 'Marlon'];
 
 
@@ -19,4 +20,5 @@ for (let i = 0; i < friends.length; i++) {
         }
     }
 }
-
+//Ending DOm Tag
+});
