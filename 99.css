@@ -1,5 +1,6 @@
 body{
     background-color: #E1AA9B;
+   
 }
 h1  {
     color: #550000;
@@ -12,18 +13,21 @@ h1  {
     radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
     #8a3;
     background-size: 20px 20px;
+   
 }
 
 .friend h3{
     text-align: center;
     color:#550000;
     text-transform: uppercase;
+   
 }
 
 p{
     height: 8em;
     text-align: center;
     font-weight: 600;
+    
 }
 .Sing   {
 width: 10em;
