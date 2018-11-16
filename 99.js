@@ -2,9 +2,13 @@ document.addEventListener("DOMContentLoaded", function  (event) {
 let friends = ['Asim', 'Marvin', 'Alex', 'Tesfa', 'Marlon'];
 
 
+let btn = document.getElementsByClassName('Sing')[0];
 
 
-// for (i = 100; i>0 ; i--)
+// Let btn do something when clicked
+btn.addEventListener('click',letSing)
+function letSing()  {
+//Loop
 for (let i = 0; i < friends.length; i++) {
     // console.log(friends[i]);
     let eachFriend = friends[i]
@@ -20,5 +24,7 @@ for (let i = 0; i < friends.length; i++) {
         }
     }
 }
+}
+
 //Ending DOm Tag
 });
