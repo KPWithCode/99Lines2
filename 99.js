@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     div1.appendChild(divHeader)
     divHeader.appendChild(divHeaderText)
     // Create Paragraph for each song lyric 
-    
+        //Friend1
         for (let j = 100; j > 0; j--) {
             if (j > 2) {
                 let div1Par = document.createElement('p')
@@ -46,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.body.appendChild(div2)
     div2.appendChild(divHeader2)
     divHeader2.appendChild(divHeaderText2)
-    // Create Paragraph for each song lyric
     for (let j = 100; j > 0; j--) {
         if (j > 2) {
             let div2Par = document.createElement('p')
@@ -146,37 +145,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
             div5Par.appendChild(marlonText3)
         }
     }
-
-
-
-
-
-  
-    
-
-
-    // Let btn do something when clicked
-    // btn.addEventListener('click', letSing)
-
-    // function letSing() {
-    //     //Loop
-    //     for (let i = 0; i < friends.length; i++) {
-    //         // console.log(friends[i]);
-    //         let eachFriend = friends[i]
-    //         console.log(eachFriend);
-    //         for (let j = 100; j > 0; j--) {
-    //             if (j > 2) {
-    //                 console.log(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + eachFriend + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Lines of Code on the Floor`)
-    //             } else if (j == 2) {
-    //                 console.log(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + eachFriend + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Line of Code on the Floor`);
-    //             } else if (j == 1) {
-    //                 console.log(j + ` Line of Code on the floor ` + j + ` Line of Code , ` + eachFriend + ` Slips and Falls, Breaks His Balls ` + j + `NO MORE LINES STOP SLIPPING JEEZ`);
-
-    //             }
-    //         }
-    //     }
-    // }
-
 
 
     //End of button function
