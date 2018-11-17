@@ -128,6 +128,24 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.body.appendChild(div5)
     div5.appendChild(divHeader5)
     divHeader5.appendChild(divHeaderText5)
+    for (let j = 100; j > 0; j--) {
+        if (j > 2) {
+            let div5Par = document.createElement('p')
+            let marlonText1 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Lines of Code on the Floor`)
+            div5.appendChild(div5Par)
+            div5Par.appendChild(marlonText1)
+        } else if (j == 2) {
+            let div5Par = document.createElement('p')
+            let marlonText2 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Line of Code on the Floor`)
+            div5.appendChild(div5Par)
+            div5Par.appendChild(marlonText2)
+        } else if (j == 1) {
+            let div5Par = document.createElement('p')
+            let marlonText3 = document.createTextNode(j + ` Line of Code on the floor ` + j + ` Line of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + j + `NO MORE LINES STOP SLIPPING JEEZ`)
+            div5.appendChild(div5Par)
+            div5Par.appendChild(marlonText3)
+        }
+    }
 
 
 
