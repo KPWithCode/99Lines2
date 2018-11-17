@@ -101,6 +101,24 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.body.appendChild(div4)
     div4.appendChild(divHeader4)
     divHeader4.appendChild(divHeaderText4)
+    for (let j = 100; j > 0; j--) {
+        if (j > 2) {
+            let div4Par = document.createElement('p')
+            let tesfaText1 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Lines of Code on the Floor`)
+            div4.appendChild(div4Par)
+            div4Par.appendChild(tesfaText1)
+        } else if (j == 2) {
+            let div4Par = document.createElement('p')
+            let tesfaText2 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Line of Code on the Floor`)
+            div4.appendChild(div4Par)
+            div4Par.appendChild(tesfaText2)
+        } else if (j == 1) {
+            let div4Par = document.createElement('p')
+            let tesfaText3 = document.createTextNode(j + ` Line of Code on the floor ` + j + ` Line of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + j + `NO MORE LINES STOP SLIPPING JEEZ`)
+            div4.appendChild(div4Par)
+            div4Par.appendChild(tesfaText3)
+        }
+    }
 
     //Friend5
     let div5 = document.createElement('div')
