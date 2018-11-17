@@ -21,19 +21,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
         for (let j = 100; j > 0; j--) {
             if (j > 2) {
                 let div1Par = document.createElement('p')
-                let parText1 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Asim' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Lines of Code on the Floor`)
+                let asimText1 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Asim' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Lines of Code on the Floor`)
                 div1.appendChild(div1Par)
-                div1Par.appendChild(parText1)
+                div1Par.appendChild(asimText1)
             } else if (j == 2) {
                 let div1Par = document.createElement('p')
-                let parText2 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Asim' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Line of Code on the Floor`)
+                let asimText2 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Asim' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Line of Code on the Floor`)
                 div1.appendChild(div1Par)
-                div1Par.appendChild(parText2)
+                div1Par.appendChild(asimText2)
             } else if (j == 1) {
                 let div1Par = document.createElement('p')
-                let parText2 = document.createTextNode(j + ` Line of Code on the floor ` + j + ` Line of Code , ` + 'Asim' + ` Slips and Falls, Breaks His Balls ` + j + `NO MORE LINES STOP SLIPPING JEEZ`)
+                let asimText3 = document.createTextNode(j + ` Line of Code on the floor ` + j + ` Line of Code , ` + 'Asim' + ` Slips and Falls, Breaks His Balls ` + j + `NO MORE LINES STOP SLIPPING JEEZ`)
                 div1.appendChild(div1Par)
-                div1Par.appendChild(parText2)
+                div1Par.appendChild(asimText3)
             }
         }
     
@@ -46,6 +46,25 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.body.appendChild(div2)
     div2.appendChild(divHeader2)
     divHeader2.appendChild(divHeaderText2)
+    // Create Paragraph for each song lyric
+    for (let j = 100; j > 0; j--) {
+        if (j > 2) {
+            let div2Par = document.createElement('p')
+            let marvinText1 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Lines of Code on the Floor`)
+            div2.appendChild(div2Par)
+            div2Par.appendChild(marvinText1)
+        } else if (j == 2) {
+            let div2Par = document.createElement('p')
+            let marvinText2 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Line of Code on the Floor`)
+            div2.appendChild(div2Par)
+            div2Par.appendChild(marvinText2)
+        } else if (j == 1) {
+            let div2Par = document.createElement('p')
+            let marvinText3 = document.createTextNode(j + ` Line of Code on the floor ` + j + ` Line of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + j + `NO MORE LINES STOP SLIPPING JEEZ`)
+            div2.appendChild(div2Par)
+            div2Par.appendChild(marvinText3)
+        }
+    }
 
     //Friend3
     let div3 = document.createElement('div')
