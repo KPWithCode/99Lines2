@@ -74,6 +74,24 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.body.appendChild(div3)
     div3.appendChild(divHeader3)
     divHeader3.appendChild(divHeaderText3)
+    for (let j = 100; j > 0; j--) {
+        if (j > 2) {
+            let div3Par = document.createElement('p')
+            let alexText1 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Alex' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Lines of Code on the Floor`)
+            div3.appendChild(div3Par)
+            div3Par.appendChild(alexText1)
+        } else if (j == 2) {
+            let div3Par = document.createElement('p')
+            let alexText2 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Alex' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Line of Code on the Floor`)
+            div3.appendChild(div3Par)
+            div3Par.appendChild(alexText2)
+        } else if (j == 1) {
+            let div3Par = document.createElement('p')
+            let alexText3 = document.createTextNode(j + ` Line of Code on the floor ` + j + ` Line of Code , ` + 'Alex' + ` Slips and Falls, Breaks His Balls ` + j + `NO MORE LINES STOP SLIPPING JEEZ`)
+            div3.appendChild(div3Par)
+            div3Par.appendChild(alexText3)
+        }
+    }
 
     //Friend4
     let div4 = document.createElement('div')
