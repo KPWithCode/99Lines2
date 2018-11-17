@@ -17,8 +17,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     div1.appendChild(divHeader)
     divHeader.appendChild(divHeaderText)
     // Create Paragraph for each song lyric 
-    for (let i = 0; i < friends.length; i++) {
-        let eachFriend = friends[i]
+    
         for (let j = 100; j > 0; j--) {
             if (j > 2) {
                 let div1Par = document.createElement('p')
@@ -37,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 div1Par.appendChild(parText2)
             }
         }
-    }
+    
     
     //Friend2
     let div2 = document.createElement('div')
