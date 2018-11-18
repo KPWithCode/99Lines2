@@ -103,17 +103,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
     for (let j = 100; j > 0; j--) {
         if (j > 2) {
             let div4Par = document.createElement('p')
-            let tesfaText1 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Lines of Code on the Floor`)
+            let tesfaText1 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Tesfa' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Lines of Code on the Floor`)
             div4.appendChild(div4Par)
             div4Par.appendChild(tesfaText1)
         } else if (j == 2) {
             let div4Par = document.createElement('p')
-            let tesfaText2 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Line of Code on the Floor`)
+            let tesfaText2 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Tesfa' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Line of Code on the Floor`)
             div4.appendChild(div4Par)
             div4Par.appendChild(tesfaText2)
         } else if (j == 1) {
             let div4Par = document.createElement('p')
-            let tesfaText3 = document.createTextNode(j + ` Line of Code on the floor ` + j + ` Line of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + j + `NO MORE LINES STOP SLIPPING JEEZ`)
+            let tesfaText3 = document.createTextNode(j + ` Line of Code on the floor ` + j + ` Line of Code , ` + 'Tesfa' + ` Slips and Falls, Breaks His Balls ` + j + `NO MORE LINES STOP SLIPPING JEEZ`)
             div4.appendChild(div4Par)
             div4Par.appendChild(tesfaText3)
         }
@@ -130,17 +130,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
     for (let j = 100; j > 0; j--) {
         if (j > 2) {
             let div5Par = document.createElement('p')
-            let marlonText1 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Lines of Code on the Floor`)
+            let marlonText1 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marlon' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Lines of Code on the Floor`)
             div5.appendChild(div5Par)
             div5Par.appendChild(marlonText1)
         } else if (j == 2) {
             let div5Par = document.createElement('p')
-            let marlonText2 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Line of Code on the Floor`)
+            let marlonText2 = document.createTextNode(j + ` Lines of Code on the floor ` + j + ` Lines of Code , ` + 'Marlon' + ` Slips and Falls, Breaks His Balls ` + (j - 1) + ` Line of Code on the Floor`)
             div5.appendChild(div5Par)
             div5Par.appendChild(marlonText2)
         } else if (j == 1) {
             let div5Par = document.createElement('p')
-            let marlonText3 = document.createTextNode(j + ` Line of Code on the floor ` + j + ` Line of Code , ` + 'Marvin' + ` Slips and Falls, Breaks His Balls ` + j + `NO MORE LINES STOP SLIPPING JEEZ`)
+            let marlonText3 = document.createTextNode(j + ` Line of Code on the floor ` + j + ` Line of Code , ` + 'Marlon' + ` Slips and Falls, Breaks His Balls ` + j + `NO MORE LINES STOP SLIPPING JEEZ`)
             div5.appendChild(div5Par)
             div5Par.appendChild(marlonText3)
         }
